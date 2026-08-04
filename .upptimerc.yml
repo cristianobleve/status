@@ -1,31 +1,80 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: tuo-username-github # Sostituisci con il tuo username GitHub
+repo: status               # Sostituisci con il nome del repository se diverso
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  # Main Domain & Portfolios
+  - name: Main Website
+    url: https://cristianobleve.com
+  - name: Portfolio (Main)
+    url: https://portfolio.cristianobleve.com
+  - name: Portfolio (Alt)
+    url: https://port.cristianobleve.com
+  - name: Shortener Service
+    url: https://go.cristianobleve.com
+
+  # Core Services & Utilities
+  - name: Login Portal
+    url: https://login.cristianobleve.com
+  - name: Mail Service
+    url: https://mail.cristianobleve.com
+  - name: Meet App
+    url: https://meet.cristianobleve.com
+  - name: Map Application
+    url: https://map.cristianobleve.com
+  - name: Tools Platform
+    url: https://tools.cristianobleve.com
+  - name: Solar App
+    url: https://solar.cristianobleve.com
+  - name: QR Extension
+    url: https://qrext.cristianobleve.com
+  - name: Tracking DS
+    url: https://trackingds.cristianobleve.com
+  - name: Background Remover
+    url: https://bgremover.cristianobleve.com
+
+  # Sub-projects & Docs
+  - name: Carrubo Platform
+    url: https://carrubo.cristianobleve.com
+  - name: Carrubo Docs
+    url: https://docs.carrubo.cristianobleve.com
+  - name: Dev Car
+    url: https://dev-car.cristianobleve.com
+  - name: Films
+    url: https://films.cristianobleve.com
+
+  # Assets & Static Delivery
+  - name: Static CDN
+    url: https://cdn.cristianobleve.com
+  - name: Images CDN
+    url: https://image.cristianobleve.com
+  - name: Img Service
+    url: https://img.cristianobleve.com
+  - name: Web Fonts
+    url: https://fonts.cristianobleve.com
+  - name: Unlock Service
+    url: https://unlock.cristianobleve.com
+
+  # Tunnels & Automations
+  - name: n8n Automation
+    url: https://n8n.cristianobleve.com
+  - name: D&D Project
+    url: https://dndproject.cristianobleve.com
+  - name: CL Car Tunnel
+    url: https://clcar.cristianobleve.com
+  - name: Mesh Network
+    url: https://mesh.cristianobleve.com
+  - name: App Service Tunnel
+    url: https://app.tuodominio.it.cristianobleve.com
+
+  # Game Servers & Community
+  - name: Minecraft Web Interface
+    url: https://mc.cristianobleve.com
+  - name: Minecraft Cobble Server
+    url: https://mcobble.cristianobleve.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  cname: status.cristianobleve.com
+  logoUrl: https://cristianobleve.com/favicon.ico
+  name: Cristiano Bleve | System Status
+  introTitle: "Stato dei Servizi"
+  introMessage: "Monitoraggio in tempo reale dell'infrastruttura web, microservizi e tunnel."
