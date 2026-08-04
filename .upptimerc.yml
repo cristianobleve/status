@@ -1,5 +1,6 @@
-owner: tuo-username-github # Sostituisci con il tuo username GitHub
+owner: cristianobleve # Sostituisci con il tuo username GitHub
 repo: status               # Sostituisci con il nome del repository se diverso
+PAT: GH_PAT
 
 sites:
   # Main Domain & Portfolios
